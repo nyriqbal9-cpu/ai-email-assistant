@@ -1,0 +1,47 @@
+:root {
+  --blue-50: #f3f8ff;
+  --blue-100: #e6f1ff;
+  --blue-200: #cfe3ff;
+  --blue-400: #5aa2f5;
+  --blue-500: #2f86eb;
+  --blue-600: #1f6fd1;
+  --text: #1c2b3f;
+  --muted: #62758d;
+  --border: #d9e6f5;
+  --danger-bg: #fff1f1;
+  --danger: #c0392b;
+  --radius: 14px;
+  --shadow: 0 6px 24px rgba(31, 111, 209, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, var(--blue-100) 0%, #ffffff 380px);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+button,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
